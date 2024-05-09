@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: SF Pro Display;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.centered-content {
+    margin: 0 auto;
+    width: 85rem;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #efefef;
+    height: 2rem;
+    font-size: 0.8rem;
+    padding: 0 2.5rem;
+}
+
+.lhs-nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+li,
+button,
+p {
+    cursor: pointer;
+}
+
+.lhs-nav ul li {
+    list-style-type: none;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    align-items: center;
+    padding: 0 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.lhs-main-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.main-nav-title {
+    padding-top: 1rem;
+}
+
+.lhs-main-nav ul li img {
+    margin-top: 0.8rem;
+}
+
+.rhs-main-nav {
+    margin-top: 0.5rem;
+}
+
+.main-content-of-img {
+    height: 35rem;
+    background-color: black;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-part img {
+    height: 35rem;
+    width: 44rem;
+    object-fit: cover;
+}
+
+.first-paragraph {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding-bottom: 2.5rem;
+}
+
+.content-part-with-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2.5rem;
+    width: 550px;
+}
+
+.second-para {
+    line-height: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.btn button {
+    padding: 0.75rem 1.5rem;
+    display: flex;
+    gap: 1rem;
+    background-color: white;
+    border: none;
+}
+
+button i {
+    font-size: 1rem;
+    color: red;
+}
+
+button p {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.second-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 3.5rem;
+    margin: 4rem 2.5rem;
+}
+
+.boxes {
+    width: 28.33rem;
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+}
+
+.uper-line {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.lower-line {
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+}
+
+.third-section {
+    display: flex;
+    gap: 3.5rem;
+    margin: 4rem 2.5rem;
+    justify-content: space-between;
+}
+
+.boxes2 {
+    width: 42.5rem;
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+}
+
+.yellow-content {
+    background-color: #ffce00;
+    height: 27rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 0 2.5rem;
+}
+
+.rhs-yellow video {
+    width: 40rem;
+    height: 100%;
+}
+
+.lhs-yellow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30rem;
+}
+
+.last {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.box {
+    display: flex;
+    width: 42.5rem;
+    gap: 2rem;
+}
+
+.ideas-ke-liye {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    margin: 4rem 2.5rem 2rem 2.5rem;
+    height: 11rem;
+}
+
+.up {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.low {
+    margin-bottom: 1.5rem;
+}
+
+.last i {
+    color: red;
+    margin-right: 0.5rem;
+}
+
+.explore-more {
+    background-color: #161616;
+    height: 26rem;
+    color: white;
+    padding: 2rem 2.5rem;
+}
+
+.big-text {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.newida {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+li {
+    list-style: none;
+    line-height: 1.6rem;
+}
+
+.fir-box {
+    width: 14rem;
+}
+
+.topper {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.fir-box ul {
+    border-top: 1px solid white;
+    padding-top: 1rem;
+}
+
+.last-part {
+    background-color: black;
+    color: white;
+    height: 35rem;
+    display: flex;
+    align-items: center;
+    padding: 4rem 2.5rem;
+    justify-content: space-between;
+}
+
+.right-content img {
+    width: 15rem;
+    margin-bottom: 3rem;
+}
+
+.right-content {
+    width: 30rem;
+    border-right: 1px solid rgba(145, 138, 138, 0.583);
+    padding: 7rem 0;
+    padding-right: 6rem;
+    line-height: 1.6rem;
+}
+
+.left-content {
+    display: flex;
+    gap: 5rem;
+}
+
+.lastest-part p {
+    margin-bottom: 1rem;
+}
+
+.lastest-part {
+    padding: 2rem 2.5rem;
+}
